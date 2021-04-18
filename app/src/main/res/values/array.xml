@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="waveSideBarLetters">
+        <item>\u0023</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </array>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>您将注册为-老师</item>
+        <item>您将注册为-学生</item>
+    </string-array>
+
+    <string-array name="user_register_type">
+        <item>邀请《学生》注册</item>
+        <item>邀请《教师》注册</item>
+    </string-array>
+
+    <string-array name="group">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+    <string-array name="video_sharpness">
+        <item>1920*1080</item>
+        <item>1280*720</item>
+        <item>720*480</item>
+        <item>480*360</item>
+    </string-array>
+
+    <string-array name="video_quality">
+        <item>6Mbps</item>
+        <item>8Mpbs</item>
+        <item>16Mbps</item>
+        <item>20Mbps</item>
+        <item>4Mbps</item>
+        <item>1Mbps</item>
+    </string-array>
+
+    <string-array name="video_fps">
+        <item>24fps</item>
+        <item>15fps</item>
+        <item>30fps</item>
+    </string-array>
+
+    <string-array name="video_direction">
+        <item>自动</item>
+        <item>竖屏</item>
+        <item>横屏</item>
+    </string-array>
+
+    <string-array name="video_voice">
+        <item>麦克风声音</item>
+        <item>扬声器声音</item>
+        <item>无声音</item>
+    </string-array>
+
+    <string-array name="video_type">
+        <!--原画-->
+        <item>原画</item>
+        <!--720p-->
+        <item>高清</item>
+        <!--480p-->
+        <item>清晰</item>
+        <!--360p-->
+        <item>流畅</item>
+    </string-array>
+
+    <string-array name="mooc_course_type">
+        <item>进行中</item>
+        <item>已结束</item>
+        <item>即将开始</item>
+    </string-array>
+
+    <string-array name="mooc_search_sort">
+        <item>排序方式</item>>
+        <item>回复数量</item>
+        <item>姓名</item>
+        <item>时间</item>
+    </string-array>
+
+    <string-array name="vote_type">
+        <item>正确/错误</item>>
+        <item>赞成/反对</item>
+        <item>单选</item>
+        <item>多选</item>
+    </string-array>
+
+</resources>

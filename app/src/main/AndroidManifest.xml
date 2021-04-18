@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicsandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activity.test.Test3Activity"></activity>
+        <activity android:name=".activity.test.TestActivity" />
+        <activity android:name=".activity.test.Test2Activity" />
+        <activity android:name=".activity.suctiontop.SuctionTopActivity" />
+        <activity android:name=".activity.Tablayout.TabLayoutActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.itemtype.ManyItemActivity" />
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".activity.scrolltab.ScrollViewTabActivity" />
+        <activity android:name=".activity.expandlistview.ExpandListViewActivity" />
+        <activity android:name=".activity.chart.PiePolylineChartActivity" />
+    </application>
+
+</manifest>

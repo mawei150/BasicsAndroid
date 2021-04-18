@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.scrolltab.ScrollViewTabActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#00574B"
+        android:overScrollMode="never"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#D81B60"
+        app:tabTextColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="1111"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_item1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="张三"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_item2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFC8B4"
+                android:gravity="center"
+                android:text="李四"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_item3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="王五"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_item4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFC8B4"
+                android:gravity="center"
+                android:text="赵六"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_item5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="刘七"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

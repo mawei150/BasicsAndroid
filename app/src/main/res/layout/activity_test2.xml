@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.test.Test2Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/tv_count_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="腹透次数"
+            android:layout_marginLeft="40dp"
+            android:textColor="#222222"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_count_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="33dp"
+            android:background="@null"
+            android:gravity="right"
+            android:maxLength="10"
+            android:text="次"
+            android:textColor="#222222"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/tv_count_unit"
+            android:layout_toRightOf="@+id/tv_count_title"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:hint="请输入"
+            android:inputType="number|numberDecimal"
+            android:maxLength="8"
+            android:paddingRight="2dp"
+            android:textColor="#222222"
+            android:textCursorDrawable="@null"
+            android:textSize="14dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_count_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_all_irrigation_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="总灌入量1000ml"
+        android:textColor="#222222"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+</LinearLayout>
