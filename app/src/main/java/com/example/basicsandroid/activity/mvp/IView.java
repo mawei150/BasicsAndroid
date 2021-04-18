@@ -30,7 +30,7 @@ public interface IView {
     void onFail(Throwable ex, String code, String msg);
 
     /**
-     * 网络  错误
+     * 网络     错误
      */
     void onNetError();
 
