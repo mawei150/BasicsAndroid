@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
  * @author MW
  * @date 2021/4/18
  * <p>
- * 描述： 轮播图
+ * 描述： 轮播  图
  */
 
 public class BannerActivity extends AppCompatActivity {
