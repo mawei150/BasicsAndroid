@@ -11,6 +11,7 @@ import com.example.basicsandroid.activity.chart.PiePolylineChartActivity;
 import com.example.basicsandroid.activity.suctiontop.SuctionTopActivity;
 import com.example.basicsandroid.activity.test.Test2Activity;
 import com.example.basicsandroid.activity.test.TestActivity;
+import com.example.basicsandroid.activity.viewpager.BannerActivity;
 import com.example.basicsandroid.bean.BeanUsername;
 
 import butterknife.BindView;
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         mTvName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TestActivity.class));
+                startActivity(new Intent(MainActivity.this, BannerActivity.class));
             }
         });
 
