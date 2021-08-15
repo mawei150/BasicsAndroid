@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
     private BeanUsername beanUsername;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
